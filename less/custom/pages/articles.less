@@ -1,0 +1,38 @@
+.single-post {
+    article.type-post {
+        img {
+            .img-responsive;
+        }
+    }
+}
+
+
+.post {
+    margin-bottom: 50px;
+    .post-text-container {
+        >h2 {
+            text-transform: uppercase;
+            > a {
+                text-decoration: none;
+            }
+        }
+        
+    }
+    @media screen and (min-width:992px) {
+        .post-content {
+            display: flex;
+            align-items: center;
+            .post-image-container {
+                margin-right: 30px;
+            }
+        }
+    }
+}
+
+.categories-title {
+    > a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: 'Fjalla One', sans-serif;
+    }
+}

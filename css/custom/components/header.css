@@ -1,0 +1,36 @@
+.header-container {
+  position: relative;
+  min-height: 200px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-container .title-area {
+  text-align: center;
+}
+.header-container .title-area h1 > a {
+  color: #000;
+}
+.header-container .search {
+  align-self: flex-end;
+}
+.header .navbar-default {
+  background: none;
+  border: none;
+}
+.header .navbar-default ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.header .navbar-default ul > li {
+  margin-right: 10px;
+  width: 150px;
+  text-align: center;
+}
+.header .navbar-default ul > li > a {
+  text-transform: uppercase;
+}
