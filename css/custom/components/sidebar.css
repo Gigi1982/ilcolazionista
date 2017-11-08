@@ -1,0 +1,12 @@
+.sidebar {
+  display: flex;
+  justify-content: center;
+}
+.sidebar .sidebar-widget ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.sidebar .sidebar-widget ul > li > a {
+  text-decoration: none;
+}

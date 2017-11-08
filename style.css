@@ -6864,6 +6864,21 @@ h5 {
   display: flex;
   justify-content: center;
 }
+.sidebar .sidebar-widget ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.sidebar .sidebar-widget ul > li > a {
+  text-decoration: none;
+}
+.sidebar .sidebar-widget ul > li.current-cat > a {
+  font-weight: 700;
+  color: #c41d26;
+}
+.sidebar .sidebar-widget .widget_categories {
+  margin-bottom: 40px;
+}
 .footer {
   text-align: center;
 }

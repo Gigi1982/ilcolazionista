@@ -6,7 +6,7 @@
                 <div class="col-md-8">
                     <section class="category-listing">
 
-                        <h1><?php single_cat_title(); ?></h1>
+                        <h1><?php _e( 'Post sotto la categoria:', 'html5blank' ); ?> <?php single_cat_title(); ?></h1>
 
                         <?php get_template_part('loop'); ?>
 
