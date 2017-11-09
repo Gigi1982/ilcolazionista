@@ -36,3 +36,26 @@
         font-family: 'Fjalla One', sans-serif;
     }
 }
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin:40px 0;
+    font-family: 'Fjalla One', sans-serif;
+    .page-numbers {
+        color:@menu-brand;
+        width:30px;
+        height: 30px;
+        line-height: 30px;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        &.next {
+            display: none;
+        }
+        &.current {
+            color:#fff;
+            background-color: @links-color;
+        }
+    }
+}

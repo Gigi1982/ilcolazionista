@@ -4,7 +4,12 @@
 		
 		'use strict';
 		
-		// DOM ready, take it away
+		$('.slideColazionista').lightSlider({
+            adaptiveHeight:true,
+            item:1,
+            slideMargin:0,
+            loop:true
+        });
 		
 	});
 	
