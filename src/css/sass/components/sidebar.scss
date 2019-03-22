@@ -1,0 +1,25 @@
+.sidebar {
+    display: flex;
+    justify-content: center;
+    .sidebar-widget {
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            > li {
+                > a {
+                    text-decoration: none;
+                }
+                &.current-cat {
+                    > a {
+                        font-weight: 700;
+                        color:$menu-brand;
+                    }
+                }
+            }
+        }
+        .widget_categories {
+            margin-bottom: 40px;
+        }
+    }
+}

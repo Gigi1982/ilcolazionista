@@ -1,0 +1,36 @@
+/**
+ * styles.scss
+ * ---
+ * Main `sass` file. Import here `sass` files
+ */
+
+@import "components/variables";
+@import "modules/mixins";
+
+@import "vendors/bootstrap/bootstrap";
+
+// Modules - example: colors, fonts, buttons, forms, ecc.
+@import "modules/buttons";
+@import "modules/fonts";
+@import "modules/icons";
+@import "modules/layout";
+@import "modules/colors";
+@import "modules/tags";
+@import "modules/forms";
+
+// Components - example: wrapper, header, nav, footer
+
+@import "components/header";
+@import "components/footer";
+@import "components/sidebar";
+@import "components/typo";
+
+
+
+// Widgets - example: canvas, slider-swiper, ecc.
+
+
+// Pages - single pages scss
+@import "pages/home";
+@import "pages/articles";
+@import "pages/commons";

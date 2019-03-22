@@ -1,1 +1,5 @@
 .DS_Store
+node_modules/
+dist/
+src/bower_components
+src/less/

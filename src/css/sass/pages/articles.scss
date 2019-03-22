@@ -1,0 +1,61 @@
+.single-post {
+    article.type-post {
+        img {
+            //@extend .img-fluid;
+        }
+    }
+}
+
+
+.post {
+    margin-bottom: 50px;
+    .post-text-container {
+        >h2 {
+            text-transform: uppercase;
+            > a {
+                text-decoration: none;
+            }
+        }
+        
+    }
+    @media screen and (min-width:992px) {
+        .post-content {
+            display: flex;
+            align-items: center;
+            .post-image-container {
+                margin-right: 30px;
+            }
+        }
+    }
+}
+
+.categories-title {
+    > a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: 'Fjalla One', sans-serif;
+    }
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin:40px 0;
+    font-family: 'Fjalla One', sans-serif;
+    .page-numbers {
+        color:$menu-brand;
+        width:30px;
+        height: 30px;
+        line-height: 30px;
+        display: inline-block;
+        text-align: center;
+        vertical-align: middle;
+        &.next {
+            display: none;
+        }
+        &.current {
+            color:#fff;
+            background-color: $links-color;
+        }
+    }
+}

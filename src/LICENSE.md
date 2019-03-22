@@ -1,8 +1,8 @@
-# [HTML5 Blank](http://theme.com) License
+# [HTML5 Blank](http://html5blank.com) License
 
 ## MIT License
 
-Copyright &copy; 2013 HTML5 Blank // @theme
+Copyright &copy; 2013 HTML5 Blank // @html5blank
 
 Built by Todd Motto // @toddmotto
 
